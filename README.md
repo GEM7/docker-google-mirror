@@ -4,7 +4,7 @@
 简单两步获得 Google 镜像，使用方法：
 
 ```
-git clone https://github.com/yifeikong/docker-google-mirror
+git clone https://github.com/GEM7/docker-google-mirror
 cd docker-google-mirror
 docker build -t google-mirror .
 docker run -d -p 80:80 google-mirror
