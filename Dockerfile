@@ -1,7 +1,7 @@
-FROM alpine:3.2
+FROM alpine:latest
 MAINTAINER Yifei Kong <kong@yifei.me>
 
-ENV NGINX_VER 1.10.0
+ENV NGINX_VER 1.13.0
 
 RUN apk add --update git openssl-dev pcre-dev zlib-dev wget build-base && \
     mkdir src && cd src && \
